@@ -3,8 +3,12 @@ Códigos y explicaciones para el desarrollo del proyecto integrador 2.  Inhibici
 
 # Instalar local
 conda create -n DeepPurpose python=3.6
+
 conda activate DeepPurpose
+
 conda install -c conda-forge notebook
-pip install git+https://github.com/bp-kelley/descriptastorus 
+
+pip install git+https://github.com/bp-kelley/descriptastorus
+
 pip install DeepPurpose
 
