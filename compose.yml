@@ -1,0 +1,30 @@
+services:
+
+  backend:
+    build: ./backend
+    container_name: backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - modelo1
+      - modelo2
+
+  modelo1:
+    build: ./backend/models/modelo1
+    container_name: modelo1
+    expose:
+      - "5001"
+
+  modelo2:
+    build: ./backend/models/modelo2
+    container_name: modelo2
+    expose:
+      - "5002"
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
