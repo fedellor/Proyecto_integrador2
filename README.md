@@ -8,4 +8,4 @@ Códigos y explicaciones para el desarrollo del proyecto integrador 2.  Inhibici
 
 En caso de facer cambios no código repetir pasos 2 e 3.
 
-Se da erros comprobade que non teñades contenedores que estan ocupando os puertos 3000, 5001, 5002 e 8000.
+Se dá erros comprobade que non teñades contenedores que estan ocupando os puertos 3000, 5001, 5002 e 8000.
